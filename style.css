@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    scroll-behavior: smooth;
+  }
+  
+  
+  header {
+    width: 100%;
+    height: 600px;
+    background-image: url('/gallery/cows-4383468__480.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  nav {
+   
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 242, 242);
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+
+  }
+  nav .menu-icon{
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  nav .logo {
+    margin-top: 0.3cm;
+    width: 25%;
+    text-align: center;
+  
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav .menu a:hover  {
+    color:  rgba(93, 48, 16) ;
+  }
+  
+  main {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:whitesmoke;
+  }
+  
+  section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 7px black;
+  }
+  
+  section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 5px 5px 9px black;
+    text-transform: uppercase;
+  }
+  
+  section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 4px 4px 8px rgb(67, 31, 5);
+  }
+  
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  section .btntwo {
+    background-color:rgb(93, 48, 16);
+    color: white;
+  }
+  
+  .btntwo:hover 
+  {
+    background-color: #fff;
+    color: #000;
+  }
+  .gallery
+  {
+    
+    background-color: white;
+      
+      display: inline;
+      margin-top: 85px;
+      margin-right: 20px;
+      margin-bottom: 80px;
+      float: left;
+      width: 350px;
+      height: 400px;
+      border: solid 1px lightgray;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .first
+  { 
+    margin-left: 5.3%;
+  }
+
+  .gallery img
+  {
+    width: 95%;
+    margin: 2%;
+    height: 55%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .description 
+  {
+    margin: 6px;
+    text-align: center;
+  }
+  .header2
+  {
+    padding: 30px;
+    background-color: #FFC107;
+    height: 610px;
+    text-align: center;
+  }
+  h3
+  {
+    margin-top: 100px;
+    font-size: 70px;
+  }
+  #header2p
+  {
+    text-align: center;
+    color: #6C757D;
+    font-size: 18px;
+  }
+  .bottom
+  { margin-top: 307px;
+    margin-left:-30px;
+    width: 1264px;
+    height: 500px;
+    background-image: url('/images/IMG_20220617_165327.jpg');
+    background-size: 100;
+  
+  }
+  .bottom h3 
+  {
+    display: inline;
+    margin-top : 8cm; 
+    margin-left:2.5cm;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+ .bottom p
+ {
+  display: inline;
+  margin-top :1cm; 
+  margin-left :1.2em;
+  text-align:center;
+  font-size: 20px;
+  color: rgb(65, 63, 63);
+ }
+ 
+ .footer{
+  width: 100%;
+  height: 400px;
+  margin-top: 12cm;
+  background-color:#FFC107;
+  }
+ .footerc1
+ {
+   
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    
+ }
+ .footerc2
+ {
+  
+  width: 33.33%;float: left;
+  
+    height: 100%;
+
+ }
+ .footerc3
+ {
+  
+  width: 33.33%;float: left;
+    height: 100%;
+ }
+ .footerc1 img
+ {
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+ }
+ .footerc1 h4{
+  float: left;
+  margin-top: 50px;
+  margin-left: 7px;
+  font-size: 28px;
+  
+}
+
+ #footer1p
+ {
+  margin-left: 30px;
+  margin-top: 150px;
+  
+ }
+ h5
+ {
+  margin-left: 30px;
+  margin-top:  20px;
+  font-size: 20px;
+ }
+ #footerc2-1
+ {
+   font-size: 28px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+ }
+ #anchorf2
+ {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+ }
+ 
+ #anchorf2:hover
+{
+  
+  color:white;
+}
